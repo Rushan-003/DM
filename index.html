@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Roman Medvedev">
-    <title>Document</title>
+    <title>D&M</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
 
@@ -13,21 +13,20 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
+    <header class="header">
         <div> 
-            <div class="header"> <!-- Пересмотреть -->
+            <nav class="flex"> <!-- Пересмотреть -->
                 <a href="/">
                     <img src="picture/logo.svg" alt="logo_D&M">
                 </a>
                 <ul class="navigation"> <!-- Пересмотреть -->
-                    <li class="element_navigation"><a href="">NEW CARS</a></li>
-                    <li class="element_navigation"><a href="">PRE-OWNED CARS</a></li>
-                    <li class="element_navigation"><a href="">FINANCE</a></li>
-                    <li class="element_navigation"><a href="">LEASE VS BUY</a></li>
-                    <li class="element_navigation"><a href="">CONTACT US</a></li>
+                    <li class="element_navigation"><a href="pages/cars.html">NEW CARS</a></li>
+                    <li class="element_navigation"><a href="pages/error.html">PRE-OWNED CARS</a></li>
+                    <li class="element_navigation"><a href="pages/error.html">FINANCE</a></li>
+                    <li class="element_navigation"><a href="pages/error.html">LEASE VS BUY</a></li>
+                    <li class="element_navigation"><a href="pages/contact.html">CONTACT US</a></li>
                 </ul>
-            </div>
-
+            </nav>
         </div>
         <div>
             <h1>Leasing From D&M</h1>
@@ -47,22 +46,22 @@
             <div class="element"> <!-- Пересмотреть -->
                 <img src="picture/X_1.svg" alt=""> <!-- Пересмотреть -->
                 <h3>Top Dealers</h3>
-                <p>TrueCar Certified Dealers compete for your business by providing discounted pricing on in-stock inventory.</p>
+                <p class="left">TrueCar Certified Dealers compete for your business by providing discounted pricing on in-stock inventory.</p>
             </div>
             <div class="element"> <!-- Пересмотреть -->
                 <img src="picture/X_2.svg" alt=""> <!-- Пересмотреть -->
                 <h3>Discounted Pricing</h3>
-                <p>View local inventory from the comfort of home and get access to guaranteed savings on the car of your choice.</p>
+                <p class="left">View local inventory from the comfort of home and get access to guaranteed savings on the car of your choice.</p>
             </div>
             <div class="element"> <!-- Пересмотреть -->
                 <img src="picture/X_3.svg" alt=""> <!-- Пересмотреть -->
                 <h3>Lower Payments</h3>
-                <p>Get discounted pricing when you shop for a car or truck using TrueCar and save on your lease payment.</p>
+                <p class="left">Get discounted pricing when you shop for a car or truck using TrueCar and save on your lease payment.</p>
             </div>
             <div class="element"> <!-- Пересмотреть -->
                 <img src="picture/X_4.svg" alt=""> <!-- Пересмотреть -->
                 <h3>Easy Upgrade</h3>
-                <p>Easy to upgrade to the newest vehicle model every few years if you would like to be modern and comfortable</p>
+                <p class="left">Easy to upgrade to the newest vehicle model every few years if you would like to be modern and comfortable</p>
             </div>
         </div>
     </section>
@@ -71,19 +70,13 @@
         <h2>How Does Leasing Work?</h2>
         <p>Leasing a vehicle is essentially entering into a long term rental agreement for that vehicle. Unlike a traditional car purchase, you don’t actually own the vehicle. Instead, a leasing company purchases the vehicle from the dealer on your behalf and then you make monthly payments to the leasing company for the duration of your lease. Some leases however, do provide the option to purchase the vehicle at the end of the lease.</p>
         <h3>Similar to a short term car rental, there are rules that define:</h3>
-        <div>
-            <div class="x"> <!-- Пересмотреть -->
-                <div class="eleps">1</div> <!-- Пересмотреть -->
-                <p>How much you can drive, stated as annual miles (excess miles are charged at a specified rate)</p>
-            </div>
-            <div class="x"> <!-- Пересмотреть -->
-                <div class="eleps">2</div> <!-- Пересмотреть -->
-                <p>Types of damage that you may be liable for at the end of your lease</p>
-            </div>
-            <div class="x"> <!-- Пересмотреть -->
-                <div class="eleps">3</div> <!-- Пересмотреть -->
-                <p>The procedures and costs when you return the vehicle at the end of your lease</p>
-            </div>
+        <div class="box">
+            <div class="eleps">1</div> <!-- Пересмотреть -->
+            <p>How much you can drive, stated as annual miles (excess miles are charged at a specified rate)</p>
+            <div class="eleps">2</div> <!-- Пересмотреть -->
+            <p>Types of damage that you may be liable for at the end of your lease</p>
+            <div class="eleps">3</div> <!-- Пересмотреть -->
+            <p>The procedures and costs when you return the vehicle at the end of your lease</p>
         </div>
         <p>Lease contracts are a commitment and ending them early can be difficult and expensive so it is important to consider your circumstances carefully before you decide.</p>
     </section>
@@ -91,7 +84,7 @@
     <section id="section_3"> <!-- Пересмотреть -->
         <h2>WELCOME TO D&M LEASING</h2>
         <h3>Find out how easy it is to lease from D&M</h3>
-        <img id="video" src="picture/video.png" alt="video">
+        <img id="video" src="picture/video.png" title="Video" alt="video">
     </section>
     
     <section id="section_4"> <!-- Пересмотреть -->
@@ -158,6 +151,6 @@
             <p class="footer_element">Do Not Sell My Personal Information</p> <!-- Пересмотреть тэг -->
         </div>
     </footer>
-
+    <script src="js/app.js"></script>
 </body>
 </html>
